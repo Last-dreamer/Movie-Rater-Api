@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: calc(100vh + 100px);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 80px;
+  margin:0px;
+}
+
+.layout{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+
+}
+
+.orange{
+  color: orange;
+}
+
+.purple{
+  color: purple;
+}
+
+.rate-container{
+  border-top: 2px solid orangered;
+  margin-top:20px;   
+}
+.rate-container span.fa{
+  font-size:2em;
+}
+.movie-item{
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+
+.movie-item span {
+  font-size:12.em;
+  margin:16px 5px;
+}
+
+button {
+ background-color:#fff;
+ border: none;
+ border-radius:5px;
+ color:#000;
+ height:40px;
+}
+
+button:hover {
+  background-color: orange;
+  color:#282c34;
+}
+
+h1 {
+  color:orange;
+  font-size: 3em;
+}
+
+h1 span.fa {
+ color: orange;
+ transform: rotate(30deg);
+} 
+
+
+input, textarea {
+  width:80%;
+  border-radius:10px;
+  color:orange;
+}
+
+.fa-trash {
+  color:crimson;
+}
+.fa-trash:hover {
+ font-size:25px;
+}
+
+.myContainer {  
+  margin: 80px 40%;
+  width: 50%;
+}
+
+.myContainer input {
+  background-color:transparent;
+  border: none;
+  border-radius: none;
+  border-bottom: 2px solid #000;
+  height: 50px;
+  width: 50%;
+}
+
+.myContainer button {
+  background-color: orange;
+}
+
+.myContainer button:hover {
+  background-color: #fff;
+  border:1px solid #000;
+}
