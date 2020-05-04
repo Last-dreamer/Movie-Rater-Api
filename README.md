@@ -1,5 +1,6 @@
-# Movie rating api's using django rest framework
-
- http://localhost:8000/api/movies/1/rate_movie/
+# Movie rating App
+ ## FrontEnd -> React 
+ ## BackEnd -> Django RestFramework..
+   api/movies/../rate_movie/
  
- # http://localhost:8000/api/ratings
+ 
